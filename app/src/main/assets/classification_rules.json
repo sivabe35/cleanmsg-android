@@ -1,0 +1,37 @@
+{
+  "rules": [
+    {
+      "category": "OTP",
+      "matchType": "SENDER_ID",
+      "values": ["VM-", "AX-", "VK-", "VD-", "VI-", "TX-"]
+    },
+    {
+      "category": "OTP",
+      "matchType": "KEYWORD",
+      "values": ["OTP", "verification code", "one time password", "one-time password", "security code"]
+    },
+    {
+      "category": "BANKING",
+      "matchType": "SENDER_ID",
+      "values": [
+        "HDFCBK", "ICICIB", "SBIINB", "AXISBK", "KOTAKB",
+        "PNBSMS", "CANBNK", "BOIIND", "UNIONB", "IDFCFB", "YESBNK"
+      ]
+    },
+    {
+      "category": "BANKING",
+      "matchType": "KEYWORD",
+      "values": ["debited", "credited", "a/c", "avl bal", "account balance", "withdrawn", "deposited"]
+    },
+    {
+      "category": "PROMOTIONAL",
+      "matchType": "SENDER_ID",
+      "values": ["AD-"]
+    },
+    {
+      "category": "PROMOTIONAL",
+      "matchType": "KEYWORD",
+      "values": ["offer", "discount", "% off", "sale", "cashback", "deal", "coupon"]
+    }
+  ]
+}

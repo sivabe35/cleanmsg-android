@@ -1,3 +1,35 @@
 <resources>
     <string name="app_name">CleanMsg</string>
+
+    <string name="onboarding_title">Welcome to CleanMsg</string>
+    <string name="onboarding_subtitle">CleanMsg helps you sort and bulk-delete years of accumulated SMS. Android requires two things before it can read and clean up your inbox.</string>
+
+    <string name="onboarding_step1_title">1. Allow message access</string>
+    <string name="onboarding_step1_description">CleanMsg needs permission to read your SMS inbox so it can group messages by type.</string>
+    <string name="onboarding_grant_permission">Grant permission</string>
+    <string name="onboarding_permission_granted">Permission granted</string>
+
+    <string name="onboarding_step2_title">2. Set CleanMsg as your default SMS app</string>
+    <string name="onboarding_step2_description">Android only allows the default SMS app to delete messages. You can switch back to your previous SMS app anytime from Settings.</string>
+    <string name="onboarding_set_default">Set as default SMS app</string>
+    <string name="onboarding_default_set">Default SMS app set</string>
+
+    <string name="onboarding_role_unavailable">This device doesn\'t support setting a default SMS app, so CleanMsg can\'t delete messages here.</string>
+    <string name="onboarding_open_settings">Open app settings</string>
+
+    <string name="compose_sms_stub_message">CleanMsg is a cleanup tool and doesn\'t support sending messages.</string>
+    <string name="close">Close</string>
+
+    <string name="dashboard_add_category">+ Add Category</string>
+
+    <string name="settings_title">Settings</string>
+    <string name="settings_default_sms_heading">Default SMS app</string>
+    <string name="settings_default_sms_is">CleanMsg is your default SMS app.</string>
+    <string name="settings_default_sms_is_not">CleanMsg is not your default SMS app. Deleting messages requires it.</string>
+    <string name="settings_change_default">Change default SMS app</string>
+    <string name="settings_inbox_heading">Inbox</string>
+    <string name="settings_rescan">Re-scan inbox</string>
+    <string name="settings_rescanning">Re-scanning…</string>
+    <string name="settings_rescanned_snackbar">Inbox re-scanned</string>
+    <string name="settings_about_heading">About</string>
 </resources>
